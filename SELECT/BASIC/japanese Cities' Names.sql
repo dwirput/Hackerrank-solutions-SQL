@@ -10,6 +10,9 @@ The CITY table is described as follows:
 | POPULATION  | NUMBER       |
 +-------------+--------------+
 */
+
 SELECT NAME 
 FROM CITY
 WHERE COUNTRYCODE ='JPN';
+
+--get all name from table city and filter data which have 'JPN' value on countrycode 

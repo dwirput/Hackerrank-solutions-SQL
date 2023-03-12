@@ -17,3 +17,5 @@ The CITY table is described as follows:
 SELECT *
 FROM CITY
 WHERE ID ='1661';
+
+--get all atribute from table city and filter data which have ID '1661'

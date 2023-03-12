@@ -15,3 +15,6 @@ The STATION table is described as follows:
 
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
 FROM STATION;
+
+-- function count to count total record
+-- COUNT(CITY) - COUNT(DISTINCT CITY) it mean total record - unique total record city

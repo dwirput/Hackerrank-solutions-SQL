@@ -16,3 +16,6 @@ The CITY table is described as follows:
 SELECT * 
 FRON CITY 
 WHERE POPULATION >= 100000 && countrycode = 'USA';
+
+--get all atribute from table city and filter data which have population more than 100k
+--and have value 'USA' in countrycode 

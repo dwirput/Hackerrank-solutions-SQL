@@ -17,3 +17,6 @@ The CITY table is described as follows:
 SELECT * 
 FROM CITY 
 WHERE COUNTRYCODE ='JPN';
+
+--get all atribute from table city and filter data which have 'JPN' value on countrycode 
+

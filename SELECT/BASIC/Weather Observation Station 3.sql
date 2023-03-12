@@ -16,3 +16,7 @@ The STATION table is described as follows:
 SELECT DISTINCT CITY 
 FROM STATION
 WHERE ID%2=0;
+
+--get all unique city record from table station
+--% is artihmatic MODudlus
+--so ID%2=0 mean devide all id with 2, and if the value of the remainder of the division is 0 that mean the ID have even number

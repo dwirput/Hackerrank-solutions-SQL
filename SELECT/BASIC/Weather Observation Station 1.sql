@@ -14,3 +14,5 @@ The STATION table is described as follows:
 */
 SELECT CITY, STATE
 FROM STATION;
+
+--get all city and state record from table station

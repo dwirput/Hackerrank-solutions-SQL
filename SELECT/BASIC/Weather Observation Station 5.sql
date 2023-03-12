@@ -21,3 +21,10 @@ UNION
 FROM STATION
 WHERE LENGTH(CITY) = (SELECT MAX(LENGTH(CITY)) FROM STATION)
 ORDER BY CITY ASC LIMIT 1)
+
+-- The UNION operator is used to combine the result-set of two or more SELECT statements.
+-- statement one
+-- get all record city and length each record city
+-- with condition length city have lowest value length and asc to sort and limit 1 to show only one record
+-- statement two
+-- same as statement one but, condition is to find max length on each city record

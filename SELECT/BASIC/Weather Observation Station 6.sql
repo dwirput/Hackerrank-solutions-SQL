@@ -17,3 +17,6 @@ The STATION table is described as follows:
 SELECT DISTINCT CITY
 FROM STATION
 WHERE CITY LIKE 'a%' || CITY LIKE 'i%'  || CITY LIKE 'u%' || CITY LIKE 'e%' || CITY LIKE 'o%'
+
+-- The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+-- Like 'a%' mean Finds any values that start with "a"

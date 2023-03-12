@@ -17,3 +17,6 @@ The CITY table is described as follows:
 SELECT NAME
 FROM CITY
 WHERE POPULATION >=120000 AND COUNTRYCODE= 'USA';
+
+--get all name  from table city and filter data which have population more than 120k
+--and have value 'USA' in countrycode 

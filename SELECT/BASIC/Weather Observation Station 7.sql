@@ -20,3 +20,6 @@ where city like '%a' || city like '%i' || city like '%u' || city like '%e' || ci
 
 -- The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 -- Like '%a' mean Finds any values that end with "a"
+
+-- solution 2
+select distinct city from station where substr(lower(city),-1) in ('a','e','i','o','u')
